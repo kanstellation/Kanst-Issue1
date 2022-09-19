@@ -11,17 +11,21 @@
         <meta name="description" content="Kanstellation Magazine explores the intersection of technology, art and humanity.">
     </head>
     <body>
-    	<nav class="top-bar">
-      <!--<a href="https://kanstellation.com" class="logo">Logo
-      </a>-->
-      <div class="menu">
-        <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    	<nav>
+    <a href="/">
+      <h1>KANSTELLATION</h1>
+    </a>
+    <ul class="navigation">
+      <li><a href="#home" class="nav-link">Features</a></li>
+      <li><a href="#about" class="nav-link">About Us</a></li>
+      <li><a href="#Events" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+
+  </nav>
     <main>
     <div class="banner">
       <header class="banner-text">
@@ -90,31 +94,50 @@
             </li>
         </ul>
         </section>
-        <section id="contact">
-        <p>Send an email to the Editor: <a href="mailto:editor@kanstellation.com" target"_blank">Email Kristen Coates</a></p>
-        </section>
-     <!--<section class="submissions">
-            <div class="content">
-                <h2>Submissions Guidelines</h2>
-                <h3>We are looking for the following: flash fiction, essay, poetry, interviews, media reviews, feature articles.</h3>
 
-            </div>
-        </section> -->
         </main>
-        <footer class="social">
-            <div class="content">
-                <hr>
-                <h5>Join us on</h5>
-            <ul class="icons">
-                <li>
-                    <i class="fa fa-twitter"></i>
-                </li>
-                <li>
-                    <i class="fa fa-instagram"></i>
-                </li>
-            </ul>
-            <span class="copy"> &#169; 2019 Kanstellation Magazine. All Rights Reserved. </span>
-        </div>
-    </footer>
-    </body>
+        <!-- Footer -->
+   <footer class="footer">
+  <div class="container1">
+    <div class="row">
+      <div class="footer-col">
+        <h4>KANSTELLATION <div class="underline"><span></span></div>
+        </h4>
+        <p>
+          EXPLORING ART, TECHNOLOGY AND HUMANITY.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Links<div class="underline"><span></span></h4>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#">Contact</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newletter<div class="underline"><span></span></h4>
+        <form>
+          <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Enter your email id" required>
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us<div class="underline"><span></span></h4>
+        <div class="social-links">
+          <a onclick="facebook()" href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+      <div class="container ">
+      <div class="copyright">
+        &copy; Copyright<span> 2019 Kanstellation Magazine</span>. All Rights Reserved
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
+</body>
 </html>
